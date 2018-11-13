@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    @media only screen and (min-width: 1301px) {
+        .cordefundo {
+            background-color: blue;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 1%;
+        }
+
+        .caixa1 {
+            background-color: white;
+            border: 1px solid black;
+            height: 400px;
+        }
+
+        .caixa2 {
+            background-color: yellow;
+            border: 1px solid black;
+            height: 600px;
+        }
+
+        .caixa3 {
+            background-color: hotpink;
+            border: 1px solid black;
+            height: 800px;
+        }
+    }
+
+    @media only screen and (max-width: 1300px) {
+
+        .cordefundo {
+            background-color: purple;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 1%;
+        }
+
+        .caixa1 {
+            background-color: green;
+            height: 400px;
+        }
+
+        .caixa2 {
+            border: 20px;
+            background-color: black;
+            height: 125%;
+        }
+
+        .caixa3 {
+            border: 3px;
+            background-color: white;
+            height: 150%;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .cordefundo {
+            background-color: orange;
+        }
+
+        .grid {
+            display: block;
+            grid-template-columns: auto auto auto;
+        }
+
+        .caixa1 {
+            background-color: blue;
+            height: 400px;
+            width: 65%;
+        }
+
+        .caixa2 {
+            border: 20px;
+            background-color: black;
+            height: 400px;
+            width: 90%;
+        }
+
+        .caixa3 {
+            border: 3px;
+            background-color: red;
+            height: 400px;
+            width: 100%;
+        }
+    }
+</style>
+
+<body class="cordefundo">
+    <div class="grid">
+        <div class="caixa1"></div>
+        <div class="caixa2"></div>
+        <div class="caixa3"></div>
+    </div>
+
+</body>
+
+</html>
